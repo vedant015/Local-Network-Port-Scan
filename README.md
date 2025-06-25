@@ -6,28 +6,28 @@ Objective: Learn to discover open ports on devices in your local network to unde
 
 Tools Used:
 
-  Kali Linux
+    Kali Linux
   
-  Nmap 7.95
+    Nmap 7.95
 
 Local Network Details:
 
-  Local IP: 10.0.2.15
+    Local IP: 10.0.2.15
   
-  Subnet: 10.0.2.0/24
+    Subnet: 10.0.2.0/24
 
 Risk Analysis:
 
-  Port 135 (msrpc) – Commonly exploited on Windows machines.
+    Port 135 (msrpc) – Commonly exploited on Windows machines.
   
-  Port 445 (microsoft-ds) – SMB; vulnerable to WannaCry, EternalBlue.
+    Port 445 (microsoft-ds) – SMB; vulnerable to WannaCry, EternalBlue.
   
-  Port 3306 (MySQL) – Open MySQL without authentication is a serious risk.
+    Port 3306 (MySQL) – Open MySQL without authentication is a serious risk.
 
 Risks:
 
-  Unauthorized access
+    Unauthorized access
   
-  Exploitation via known vulnerabilities
+    Exploitation via known vulnerabilities
   
-  Data breaches
+    Data breaches
