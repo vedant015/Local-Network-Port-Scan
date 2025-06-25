@@ -16,6 +16,14 @@ Local Network Details:
   
     Subnet: 10.0.2.0/24
 
+Procedure:
+
+    1. Installed the nmap (already installed in the system), in the screenshot named nmap-install.png
+    
+    2. Found the ip address of the network using "ipconfig"
+    
+    3. Done the port scan on the network using nmap and saved the network scan data in "scan-result.txt" also attached a screenshot of it.
+    
 Risk Analysis:
 
     Port 135 (msrpc) – Commonly exploited on Windows machines.
